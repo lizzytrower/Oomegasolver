@@ -19,6 +19,13 @@ function [Omega,preciprate] = Oomegasolver(D,Rouse,intermittency,...
 %   rateconstant - umol/cm^2/hr
 %   rxnorder - dimensionless
 
+%   IMPORTANT: This code as currently written is not designed to be run
+%   with vectors as inputs, so it is recommended to run it with a for-loop
+%   if you want to calculate multiple Omega estimates.
+
+%   This code was developed by Lizzy Trower at the University of Colorado
+%   Boulder in Matlab 2018b, last updated November 2020.
+
 %The following parameters can be changed if needed to better reflect the
 %system of interest.
 rho_s = 2800; %[kg/m^3] density of sediment, this value is set for aragonite
