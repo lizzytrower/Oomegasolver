@@ -16,7 +16,7 @@ function [Omega,preciprate] = Oomegasolver(D,Rouse,intermittency,...
 %           transport near the threshold of suspension)
 %   intermittency - dimensionless (this parameter is called "f" in
 %                   publications and must be in the range (0, 1])
-%   rateconstant - umol/cm^2/hr
+%   rateconstant - umol/m^2/hr
 %   rxnorder - dimensionless
 
 %   IMPORTANT: This code as currently written is not designed to be run
